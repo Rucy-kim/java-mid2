@@ -14,5 +14,8 @@ public class Container<T> {
 
     public boolean isEmpty() {
         return item == null;
+
+        // 처음에는 다음과 같은 코드를
+        // return ((String) item).isEmpty();
     }
 }
